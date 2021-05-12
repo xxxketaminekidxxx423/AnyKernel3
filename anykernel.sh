@@ -4,10 +4,10 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=ExampleKernel by osm0sis @ xda-developers
+kernel.string=NetErnels Kernel
 do.devicecheck=1
-do.modules=0
-do.systemless=1
+do.modules=1
+do.systemless=0 
 do.cleanup=1
 do.cleanuponabort=0
 device.name1=maguro
