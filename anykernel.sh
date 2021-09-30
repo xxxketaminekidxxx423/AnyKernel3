@@ -4,18 +4,18 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=ExampleKernel by osm0sis @ xda-developers
+kernel.string=Atom-X EAS Kernel By The Atom-X Developers
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=maguro
-device.name2=toro
-device.name3=toroplus
-device.name4=tuna
+device.name1=X01BD
+device.name2=ASUS_X01BD
+device.name3=X01BDA
+device.name4=ASUS_X01BDA
 device.name5=
-supported.versions=
+supported.versions=11.0
 supported.patchlevels=
 '; } # end properties
 
