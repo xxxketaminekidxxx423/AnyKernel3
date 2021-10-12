@@ -16,11 +16,11 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=X01BD
-device.name2=ASUS_X01BD
-device.name3=X01BDA
-device.name4=ASUS_X01BDA
-device.name5=
+device.name1=X00TD
+device.name2=ASUS_X00TD
+device.name3=X00T
+device.name4=ASUS_X00TDA
+device.name5=X00TDA
 supported.versions=11.0-12.0
 supported.patchlevels=
 '; } # end properties
