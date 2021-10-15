@@ -15,7 +15,7 @@ device.name2=RedmiNote10
 device.name3=sunny
 device.name4=Mojito
 device.name5=Sunny
-supported.versions=11
+supported.versions=11-12
 supported.patchlevels=
 '; } # end properties
 
