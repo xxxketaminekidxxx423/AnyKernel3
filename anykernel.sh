@@ -59,14 +59,13 @@ append_file fstab.tuna "usbdisk" fstab;
 write_boot;
 ## end boot install
 
-
-# shell variables
-#block=vendor_boot;
-#is_slot_device=1;
-#ramdisk_compression=auto;
-
 # reset for vendor_boot patching
 #reset_ak;
+
+# migrate from /overlay to /overlay.d to enable SAR Magisk
+if [ -d $ramdisk/overlay ]; then
+  rm -rf $ramdisk/overlay;
+fi;
 
 
 ## AnyKernel vendor_boot install
