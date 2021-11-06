@@ -39,7 +39,10 @@ set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 dump_boot;
 
 # begin ramdisk changes
-
+# migrate from /overlay to /overlay.d to enable SAR Magisk
+if [ -d $ramdisk/overlay ]; then
+  rm -rf $ramdisk/overlay;
+fi;
 #flash_boot;
 ## end vendor_boot install
 
