@@ -25,6 +25,10 @@ ramdisk_compression=auto;
 # import patching functions/variables - see for reference
 . tools/ak3-core.sh;
 
+ui_print "Patching system's build prop for fuse passthrough..."
+# FUSE Passthrough
+patch_prop /system/build.prop "persist.sys.fuse.passthrough.enable" "true"
+
 
 ## AnyKernel file attributes
 # set permissions/ownership for included ramdisk files
